@@ -1,6 +1,6 @@
 {
   "name": "@adeptus_artifex/react-native-launch-arguments",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Launch arguments for React Native iOS and Android",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
