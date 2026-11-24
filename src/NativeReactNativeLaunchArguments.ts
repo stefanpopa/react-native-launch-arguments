@@ -7,4 +7,6 @@ export interface Spec extends TurboModule {
   };
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('ReactNativeLaunchArguments');
+export default TurboModuleRegistry.getEnforcing<Spec>(
+  'ReactNativeLaunchArguments'
+);
