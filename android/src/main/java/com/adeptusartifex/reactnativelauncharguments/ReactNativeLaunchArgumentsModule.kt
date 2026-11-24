@@ -28,7 +28,7 @@ class ReactNativeLaunchArgumentsModule(reactContext: ReactApplicationContext) :
   }
 
   private fun parseIntentExtras(): Map<String, Any?> {
-    val activity = currentActivity ?: return mapOf()
+    val activity = reactApplicationContext.currentActivity ?: return mapOf()
     val intent = activity.intent ?: return mapOf()
 
     // Combine Detox and ADB extras; ADB extras override Detox on key collisions
